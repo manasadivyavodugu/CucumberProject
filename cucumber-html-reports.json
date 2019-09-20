@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-19T06:51:09.838Z",
+        "line": 9,
+        "name": "Success Login with actual values",
+        "description": "",
+        "id": "login;success-login-with-actual-values",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1067500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter \"sam\" and \"abcd123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sam\"",
+                  "offset": 6
+                },
+                {
+                  "val": "\"abcd123\"",
+                  "offset": 16
+                }
+              ],
+              "location": "Step.enter_user_name_in_the_userid_field(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 78300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on login buttin",
+            "match": {
+              "location": "Step.click_on_login_buttin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Step.home_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "classpath:package1/login.feature",
+    "tags": []
+  }
+]
